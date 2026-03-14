@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import CitySelector from './pages/CitySelector';
+import CityDetails from './pages/CityDetails';
+import { loadAllCities } from './utils/cityLoader';
 import './App.css';
 
 function App() {
+  const [citiesLoaded, setCitiesLoaded] = useState(false);
+
+  useEffect(() => {
+    // Load all cities on app startup
+    loadAllCities().then(() => {
+      setCitiesLoaded(true);
+    });
+  }, []);
+
+  if (!citiesLoaded) {
+    return (
+      <div className="loading-screen">
+        <p>Loading...</p>
+      </div>
+    );
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<CitySelector />} />
+        <Route path="/cities/:slug" element={<CityDetails />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,16 @@
+.flip-counter {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+/* Optional: add a subtle glow/highlight on animation */
+@keyframes flipGlow {
+  from {
+    color: #ff6b6b;
+  }
+  to {
+    color: currentColor;
+  }
+}
