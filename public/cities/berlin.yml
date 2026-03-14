@@ -4,6 +4,7 @@ flag: 🇩🇪
 
 real_amount: 1800
 numbeo_amount: 1200
+currency: €
 
 housing:
   amount: 700

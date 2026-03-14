@@ -72,6 +72,7 @@ export function getCityBreakdown(slug) {
         name: category.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()),
         amount: city[category].amount,
         explanation: city[category].explanation,
+        currency: city.currency || '$',
       });
     }
   });

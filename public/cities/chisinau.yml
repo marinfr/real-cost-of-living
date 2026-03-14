@@ -1,9 +1,10 @@
-name: Chisinau, Moldova
+name: Chișinău, Moldova
 slug: chisinau
 flag: 🇲🇩
 
-real_amount: 1800
-numbeo_amount: 1200
+real_amount: 1500
+numbeo_amount: 800
+currency: €
 
 housing:
   amount: 700

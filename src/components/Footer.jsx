@@ -5,12 +5,13 @@ import './Footer.css';
  * Footer component with branding and GitHub link
  */
 function Footer() {
-  const githubUrl = process.env.REACT_APP_GITHUB_URL || 'https://github.com';
+  const githubUrl = 'https://github.com/marinfr/real-cost-of-living';
+  const linkedinUrl = 'https://www.linkedin.com/in/marin-frecautan/';
 
   return (
     <footer className="app-footer">
       <div className="footer-content">
-        <p>Made by Sisyphus Labs</p>
+        <p>Made by <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="linkedin-link">Marin</a></p>
         <a
           href={githubUrl}
           target="_blank"

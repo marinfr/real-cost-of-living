@@ -44,6 +44,15 @@ function CityDetails() {
     document.body.removeChild(link);
   };
 
+  // Calculate total for percentage visualization
+  const total = breakdown.reduce((sum, item) => sum + item.amount, 0);
+  const getBackgroundStyle = (amount) => {
+    const percentage = (amount / total) * 100;
+    return {
+      backgroundImage: `linear-gradient(90deg, rgba(80, 180, 15, 0.2) 0%, rgba(80, 180, 15, 0.2) ${percentage}%, transparent ${percentage}%, transparent 100%)`,
+    };
+  };
+
   return (
     <div className="city-details-page">
       <button className="back-button" onClick={() => navigate('/')} aria-label="Go back">
@@ -55,27 +64,30 @@ function CityDetails() {
           <h1 className="main-title">
             You need
             <br />
-            <FlipCounter value={city.real_amount} className="amount-highlight" />
+            <span className="amount-currency">{city.currency}</span><FlipCounter value={city.real_amount} className="amount-highlight" prefix="" />
             <br />
             net to live in
             <br />
             <span className="city-name-display">{city.name}</span>
+            <span>{city.flag}</span>
           </h1>
         </div>
 
-        {/* Breakdown table */}
+        {/* Breakdown cards */}
         <div className="breakdown-section">
-          <div className="breakdown-header">
-            <span>Category</span>
-            <span>Amount</span>
-            <span>Actions</span>
-          </div>
-
           <div className="breakdown-list">
-            {breakdown.map((category) => (
-              <div key={category.id} className="breakdown-item">
+            {breakdown.map((category, index) => (
+              <div
+                key={category.id}
+                className="breakdown-item"
+                style={{
+                  ...getBackgroundStyle(category.amount),
+                  animation: `slideInRow 0.6s ease-out forwards`,
+                  animationDelay: `${1.7 + index * 0.15}s`,
+                }}
+              >
                 <span className="category-name">{category.name}</span>
-                <span className="category-amount">${category.amount}</span>
+                <span className="category-amount">{category.currency}{category.amount}</span>
                 <div className="category-actions">
                   <button
                     className="action-button info-button"
@@ -83,15 +95,15 @@ function CityDetails() {
                     title="More information"
                     aria-label={`Info about ${category.name}`}
                   >
-                    ℹ
+                    ?
                   </button>
                   <button
                     className="action-button report-button"
                     onClick={() => handleReportClick(category)}
-                    title="Report inconsistency"
+                    title="Report inaccuracy"
                     aria-label={`Report issue with ${category.name}`}
                   >
-                    ⚠
+                    !
                   </button>
                 </div>
               </div>
@@ -104,7 +116,12 @@ function CityDetails() {
           <p className="numbeo-text">
             Numbeo says you only need
             <br />
-            <FlipCounter value={city.numbeo_amount} className="numbeo-amount" />
+            <div className="numbeo-amount-wrapper">
+              <div className="numbeo-amount-inner">
+                <span className="currency-symbol">{city.currency}</span><span className="numbeo-amount">{city.numbeo_amount?.toLocaleString('en-US')}</span>
+              </div>
+              <span className="numbeo-percentage">(-{Math.round(city.real_amount - city.numbeo_amount)})</span>
+            </div>
           </p>
 
           <button

@@ -1,5 +1,9 @@
 /* Global Styles & Typography */
 
+:root {
+  --accent-green: rgba(80, 180, 15, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
