@@ -6,8 +6,7 @@
     "enabled": true
   },
   "assets": {
-    "directory": "build",
-    "html_fallback": "index.html"
+    "directory": "build"
   },
   "compatibility_flags": [
     "nodejs_compat"
