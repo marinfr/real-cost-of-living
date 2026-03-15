@@ -2,34 +2,30 @@ name: Berlin, Germany
 slug: berlin
 flag: 🇩🇪
 
-real_amount: 1800
-numbeo_amount: 1200
+real_amount: 4366
+numbeo_amount: 2270
 currency: €
 
 housing:
-  amount: 700
-  explanation: Central 1-bedroom apartment, not Soviet-era condition.
+  amount: 1050
 
 utilities:
-  amount: 150
-  explanation: Includes heating averaged annually.
+  amount: 320
+  explanation: Includes ancillary cold-rent costs, 100% certified green energy, fiber-optic internet, mobile data, and the mandatory public broadcasting fee.
 
 food:
-  amount: 350
-  explanation: Quality groceries, mix of local and imported goods.
+  amount: 475
+  explanation: High-quality organic whole foods, ethical proteins, and a small allowance for independent, ethically sourced dining.
 
 transportation:
-  amount: 50
-  explanation: Public transport monthly pass.
+  amount: 63
+  explanation: Unlimited nationwide and urban public transport via the Deutschlandticket (2026 pricing)
 
 other_essentials:
-  amount: 200
-  explanation: Phone, hygiene, small purchases.
+  amount: 275
 
 hobbies:
-  amount: 200
-  explanation: Gym, occasional drinks, subscriptions.
+  amount: 1310
 
 savings:
-  amount: 150
-  explanation: Minimum 8% buffer.
+  amount: 873

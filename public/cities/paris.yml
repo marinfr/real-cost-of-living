@@ -2,34 +2,30 @@ name: Paris, France
 slug: paris
 flag: 🇫🇷
 
-real_amount: 1800
-numbeo_amount: 1200
+real_amount: 5980
+numbeo_amount: 2800
 currency: €
 
 housing:
-  amount: 700
-  explanation: Central 1-bedroom apartment, not Soviet-era condition.
+  amount: 1800
 
 utilities:
-  amount: 150
-  explanation: Includes heating averaged annually.
+  amount: 200
+  explanation: Comprehensive budget covering green energy, fiber-optic internet, mobile plan, building maintenance (charges locatives), and mandatory home insurance.
 
 food:
-  amount: 350
-  explanation: Quality groceries, mix of local and imported goods.
+  amount: 550
+  explanation: Varied diet based on 100% organic and ethically sourced ingredients, utilizing specialized retailers and neighborhood farmers' markets.
 
 transportation:
-  amount: 50
-  explanation: Public transport monthly pass.
+  amount: 90
+  explanation: 2026 Navigo All-Zones monthly pass, providing unlimited access to all regional public transit networks.
 
 other_essentials:
-  amount: 200
-  explanation: Phone, hygiene, small purchases.
+  amount: 350
 
 hobbies:
-  amount: 200
-  explanation: Gym, occasional drinks, subscriptions.
+  amount: 1794
 
 savings:
-  amount: 150
-  explanation: Minimum 8% buffer.
+  amount: 1196

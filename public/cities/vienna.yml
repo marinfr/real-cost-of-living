@@ -2,34 +2,30 @@ name: Vienna, Austria
 slug: vienna
 flag: 🇦🇹
 
-real_amount: 1800
-numbeo_amount: 1200
+real_amount: 4356
+numbeo_amount: 2061
 currency: €
 
 housing:
-  amount: 700
-  explanation: Central 1-bedroom apartment, not Soviet-era condition.
+  amount: 1200
 
 utilities:
-  amount: 150
-  explanation: Includes heating averaged annually.
+  amount: 240
+  explanation: Includes 2026 adjusted district heating tariffs, green electricity, water, 100Mbps fiber internet, and the mandatory €15.30 ORF media fee.
 
 food:
-  amount: 350
-  explanation: Quality groceries, mix of local and imported goods.
+  amount: 500
+  explanation: Covers a 100% organic/ethical diet based on the Bio-Austria standard, prioritizing seasonal produce and fair-trade proteins from specialized retailers.
 
 transportation:
-  amount: 50
-  explanation: Public transport monthly pass.
+  amount: 38
+  explanation: Amortized monthly cost of the digital Wiener Linien Annual Pass for the city core, following the 2026 price increase to €461.
 
 other_essentials:
   amount: 200
-  explanation: Phone, hygiene, small purchases.
 
 hobbies:
-  amount: 200
-  explanation: Gym, occasional drinks, subscriptions.
+  amount: 1307
 
 savings:
-  amount: 150
-  explanation: Minimum 8% buffer.
+  amount: 871

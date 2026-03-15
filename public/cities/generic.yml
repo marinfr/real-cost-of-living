@@ -1,0 +1,31 @@
+housing:
+  explanation: |
+    <strong>40–50 m² housing</strong> — Studies on spatial housing requirements show ~30 m² is the minimum viable area for a single person, below which living conditions deteriorate; larger spaces are needed for comfortable long-term living.
+    <br/><br/>
+    <strong>≤30 minute commute</strong> — Research shows longer commuting times are associated with increased stress and depression risk, which is why planners often consider ~30 minutes a reasonable commuting threshold.
+    <br/><br/>
+    <strong>≤15 minute walk to daily services</strong> — The “15-minute city” concept by urban planner Carlos Moreno proposes that essential services should be reachable within a 15-minute walk or bike ride from home.
+
+utilities:
+  explanation: Electricity, water, gas, and internet for a typical apartment.
+
+food:
+  explanation: Quality groceries for cooking meals at home, including fresh produce and proteins.
+
+transportation:
+  explanation: Public transportation pass or equivalent monthly commuting costs.
+
+other_essentials:
+  explanation: Non-toxic cleaning/hygiene products, and a slow-fashion capsule wardrobe allocation.
+
+hobbies:
+  explanation: |
+    One of the most famous budgeting frameworks is the 50/30/20 rule, popularized by Elizabeth Warren and her daughter in the book All Your Worth.
+    <br/><br/>
+    30% for hobbies and leisure.
+
+savings:
+  explanation: |
+    One of the most famous budgeting frameworks is the 50/30/20 rule, popularized by Elizabeth Warren and her daughter in the book All Your Worth.
+    <br/><br/>
+    20% for savings and investments.

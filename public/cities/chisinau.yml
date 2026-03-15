@@ -2,34 +2,30 @@ name: Chișinău, Moldova
 slug: chisinau
 flag: 🇲🇩
 
-real_amount: 1500
-numbeo_amount: 800
+real_amount: 2000
+numbeo_amount: 1025
 currency: €
 
 housing:
-  amount: 700
-  explanation: Central 1-bedroom apartment, not Soviet-era condition.
+  amount: 500
 
 utilities:
-  amount: 150
-  explanation: Includes heating averaged annually.
+  amount: 100
+  explanation: A weighted annual average reflecting winter heating surges (€80-€120) and summer lows (€40-€60), including 150Mbps+ internet and mobile plans.
 
 food:
-  amount: 350
-  explanation: Quality groceries, mix of local and imported goods.
+  amount: 250
+  explanation: Varied, healthy diet. Based on the Healthy Food Basket (HFB) with a 100% organic/ethical premium.
 
 transportation:
-  amount: 50
-  explanation: Public transport monthly pass.
+  amount: 12
+  explanation: The unified cost of a monthly public transport pass (234 Lei) for unlimited trolleybus and bus travel within the Chisinau municipality.
 
 other_essentials:
-  amount: 200
-  explanation: Phone, hygiene, small purchases.
+  amount: 138
 
 hobbies:
-  amount: 200
-  explanation: Gym, occasional drinks, subscriptions.
+  amount: 600
 
 savings:
-  amount: 150
-  explanation: Minimum 8% buffer.
+  amount: 400
