@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#A78BFA"/>
+
+  <!-- Dark overlay -->
+  <rect width="1200" height="630" fill="rgba(0, 0, 0, 0.3)"/>
+
+  <!-- Dollar sign -->
+  <text x="150" y="450" font-size="200" font-weight="bold" fill="white" font-family="Arial, sans-serif">$</text>
+
+  <!-- Title -->
+  <text x="600" y="200" font-size="72" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Real Cost of Living</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="300" font-size="48" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Compare City Expenses</text>
+</svg>
