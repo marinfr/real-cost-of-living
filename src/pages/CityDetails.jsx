@@ -149,15 +149,19 @@ function CityDetails() {
         title="How to interpret these results?"
       >
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
+          If you earn more than the calculated amount, you may consider yourself fortunate. However, it is important to recognize that this level of comfort exists within an economic system in which many others can only manage by accepting lower standards — in housing, food, consumer goods, and working conditions.
         </p>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          A large part of the problem is the widespread <strong>illusion of affordability</strong>. Markets are saturated with low-quality options designed to fit “any budget”, creating the impression that basic needs remain accessible to everyone. As a result, individuals are often led to believe that financial struggle is primarily the result of personal failure rather than structural conditions.
+        </p>
+        <p>
+          Consider a simple thought experiment: imagine that governments suddenly banned unsafe housing, poor-quality goods, toxic food, and exploitative labour practices. Overnight, a significant portion of the population would find themselves unable to afford what would then be considered the minimum acceptable standard of living. Not because their needs changed, but because the system currently relies on the availability of lower standards to maintain the appearance of affordability.
+        </p>
+        <p>
+          These results are not intended to prescribe solutions or assign blame. They are meant as a reality check — a tool to better understand the gap between <strong>decent living</strong> and what many people can realistically afford today.
+        </p>
+        <p>
+          Awareness is the first step toward meaningful change.
         </p>
       </Modal>
 

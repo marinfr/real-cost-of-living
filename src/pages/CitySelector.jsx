@@ -150,10 +150,13 @@ function CitySelector() {
         title="Why does this calculator exist?"
       >
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
+          Other calculators are based around all the options available in a city, with the minimum requirement of fully covering expenses. We say <strong>"decent living is the bare minimum"</strong>. Financial security, personal development, and worthy options are what sit at the base of our calculations.
+        </p>
+        <p>
+          The total is the net salary needed for 1 person, if you want to provide <strong>decent living</strong> for more people you should multiply it.
+        </p>
+        <p>
+          <strong>Note:</strong> costs research is done with AI. If you notice any inaccuracies, please report them by clicking the "!" button next to each spending category.
         </p>
       </Modal>
 
