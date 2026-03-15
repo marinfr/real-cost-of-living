@@ -1,9 +1,1 @@
-/static/* 200
-/cities/* 200
-/manifest.json 200
-/favicon.svg 200
-/favicon.ico 200
-/robots.txt 200
-/*.png 200
-/*.ico 200
-/* /index.html 200
+/cities/*  /index.html  200
