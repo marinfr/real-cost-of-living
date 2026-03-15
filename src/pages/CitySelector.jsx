@@ -153,7 +153,7 @@ function CitySelector() {
           Most cost-of-living calculators estimate the minimum income required to cover existing expenses in a given city, based on the full range of available options — including the cheapest ones. Our approach starts from a different assumption — that <strong>decent living</strong> should be the baseline, not the goal. Financial security, personal development, and access to worthy options are therefore treated as essential components of everyday life and form the foundation of our calculations.
         </p>
         <p>
-          The total is the net salary needed for 1 person, if you want to provide <strong>decent living</strong> for more people you should multiply it.
+          The total is the net monthly salary needed for 1 person, if you want to provide <strong>decent living</strong> for more people you should multiply it.
         </p>
         <p>
           <strong>Note:</strong> costs research is done with AI. If you notice any inaccuracies, please report them by clicking the "!" button next to each spending category.
