@@ -272,7 +272,7 @@
   }
 
   .breakdown-list {
-    gap: 12px;
+    gap: 20px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-auto-flow: row;
@@ -377,7 +377,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-auto-flow: row;
-    gap: 12px;
+    gap: 20px;
   }
 
   .category-name {

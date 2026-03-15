@@ -3,6 +3,33 @@ import YAML from 'js-yaml';
 // Map of city data - populated at app startup
 const citiesCache = {};
 
+// Generic fallback descriptions - populated at app startup
+let genericFallback = {};
+
+/**
+ * Load generic fallback descriptions from generic.yml
+ */
+async function loadGenericFallback() {
+  try {
+    const response = await fetch('/cities/generic.yml');
+    if (!response.ok) {
+      throw new Error('Generic fallback file not found');
+    }
+    const yamlText = await response.text();
+    const genericData = YAML.load(yamlText);
+    
+    // Extract explanations from each category
+    const categories = ['housing', 'utilities', 'food', 'transportation', 'other_essentials', 'hobbies', 'savings'];
+    categories.forEach((category) => {
+      if (genericData[category] && genericData[category].explanation) {
+        genericFallback[category] = genericData[category].explanation;
+      }
+    });
+  } catch (error) {
+    console.error('Failed to load generic fallback descriptions:', error);
+  }
+}
+
 /**
  * Dynamically import and parse a YAML city file
  */
@@ -25,6 +52,9 @@ async function loadCityFile(slug) {
  * For now, we assume the city files are statically available
  */
 export async function loadAllCities() {
+  // First, load generic fallback descriptions
+  await loadGenericFallback();
+
   const cityNames = ['berlin', 'paris', 'vienna', 'chisinau'];
 
   for (const slug of cityNames) {
@@ -67,11 +97,14 @@ export function getCityBreakdown(slug) {
 
   categories.forEach((category) => {
     if (city[category]) {
+      // Use city-specific explanation, fallback to generic if missing
+      const explanation = city[category].explanation || genericFallback[category];
+      
       breakdown.push({
         id: category,
         name: category.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()),
         amount: city[category].amount,
-        explanation: city[category].explanation,
+        explanation: explanation,
         currency: city.currency || '$',
       });
     }

@@ -139,7 +139,7 @@ function CityDetails() {
         onClose={() => setShowInfoModal(false)}
         title={selectedCategory?.name}
       >
-        <p>{selectedCategory?.explanation}</p>
+        <div dangerouslySetInnerHTML={{ __html: selectedCategory?.explanation }} />
       </Modal>
 
       {/* Interpret Results Modal */}
@@ -149,7 +149,7 @@ function CityDetails() {
         title="How to interpret these results?"
       >
         <p>
-          If you earn more than the calculated amount, you may consider yourself fortunate. However, it is important to recognize that this level of comfort exists within an economic system in which many others can only manage by accepting lower standards — in housing, food, consumer goods, and working conditions.
+          If you earn more than the calculated amount, you may consider yourself relatively secure. However, it is important to recognize that this level of comfort exists within an economic system in which many others can only manage by accepting lower standards — in housing, food, consumer goods, and working conditions.
         </p>
         <p>
           A large part of the problem is the widespread <strong>illusion of affordability</strong>. Markets are saturated with low-quality options designed to fit “any budget”, creating the impression that basic needs remain accessible to everyone. As a result, individuals are often led to believe that financial struggle is primarily the result of personal failure rather than structural conditions.
