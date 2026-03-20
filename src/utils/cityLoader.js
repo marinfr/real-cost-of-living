@@ -17,7 +17,7 @@ async function loadGenericFallback() {
     }
     const yamlText = await response.text();
     const genericData = YAML.load(yamlText);
-    
+
     // Extract explanations from each category
     const categories = ['housing', 'utilities', 'food', 'transportation', 'other_essentials', 'hobbies', 'savings'];
     categories.forEach((category) => {
@@ -55,7 +55,7 @@ export async function loadAllCities() {
   // First, load generic fallback descriptions
   await loadGenericFallback();
 
-  const cityNames = ['berlin', 'paris', 'vienna', 'chisinau'];
+  const cityNames = ['berlin', 'paris', 'vienna', 'chisinau', 'copenhagen'];
 
   for (const slug of cityNames) {
     const data = await loadCityFile(slug);
@@ -99,7 +99,7 @@ export function getCityBreakdown(slug) {
     if (city[category]) {
       // Use city-specific explanation, fallback to generic if missing
       const explanation = city[category].explanation || genericFallback[category];
-      
+
       breakdown.push({
         id: category,
         name: category.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()),

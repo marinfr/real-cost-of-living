@@ -1,0 +1,31 @@
+name: Copenhagen, Denmark
+slug: copenhagen
+flag: 🇩🇰
+
+real_amount: 6136
+numbeo_amount: 2985
+currency: €
+
+housing:
+  amount: 1678
+
+utilities:
+  amount: 201
+  explanation: Includes district heating, water, renewable electricity, high-speed fiber internet, and a comprehensive 5G mobile data plan.
+
+food:
+  amount: 644
+  explanation: 100% organic, ethically sourced, and varied diet utilizing premium subscription boxes and zero-waste markets (LOS Market).
+
+transportation:
+  amount: 102
+  explanation: 3-zone monthly commuter pass with Metro extension for unlimited public transport; cycling infrastructure used for short-range trips.
+
+other_essentials:
+  amount: 443
+
+hobbies:
+  amount: 1841
+
+savings:
+  amount: 1227
