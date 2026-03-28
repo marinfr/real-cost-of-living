@@ -1,0 +1,31 @@
+name: Valencia, Spain
+slug: valencia
+flag: 🇪🇸
+
+real_amount: 3770
+numbeo_amount: 1800
+currency: €
+
+housing:
+  amount: 1100
+
+utilities:
+  amount: 150
+  explanation: Comprehensive monthly cost for electricity, water, waste disposal, 600Mbps fiber internet, and a premium mobile phone plan.
+
+food:
+  amount: 450
+  explanation: A varied, healthy adult diet exclusively sourced from organic markets and ethical retailers, accounting for the premium for non-GMO, local, and sustainable ingredients.
+
+transportation:
+  amount: 35
+  explanation: Cost of a full-price SUMA Monthly Zone A pass, providing unlimited access to all city public transport modes, promoting a car-free, sustainable lifestyle.
+
+other_essentials:
+  amount: 150
+
+hobbies:
+  amount: 1131
+
+savings:
+  amount: 754

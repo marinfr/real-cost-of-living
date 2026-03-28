@@ -78,7 +78,7 @@
   border: 2px solid #000;
   border-top: none;
   border-radius: 0 0 8px 8px;
-  max-height: 400px;
+  max-height: 240px;
   overflow-y: auto;
   z-index: 100;
   animation: slideDown 0.1s ease-out;
