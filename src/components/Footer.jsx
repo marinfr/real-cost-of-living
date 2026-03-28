@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="app-footer">
       <div className="footer-content">
-        <p>Made by <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" style={{ color: 'inherit' }} className="linkedin-link">Marin</a></p>
+        <p>Made by <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }} className="footer-link">Marin</a></p>
         <a
           href={githubUrl}
           target="_blank"
