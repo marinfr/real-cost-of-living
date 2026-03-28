@@ -1,0 +1,31 @@
+name: Sarajevo, Bosnia and Herzegovina
+slug: sarajevo
+flag: 🇧🇦
+
+real_amount: 2450
+numbeo_amount: 1080
+currency: €
+
+housing:
+  amount: 500
+
+utilities:
+  amount: 155
+  explanation: Includes high-speed internet, mobile data, and seasonal averages for electricity and gas heating in a 50m² unit.
+
+food:
+  amount: 360
+  explanation: Reflects a varied healthy diet with a 40% premium for ethical and organic sourcing via specialty markets and bio-certified retailers.
+
+transportation:
+  amount: 55
+  explanation: Covers a subsidized worker's monthly pass and a budget for occasional taxi use or inter-city travel.
+
+other_essentials:
+  amount: 155
+
+hobbies:
+  amount: 735
+
+savings:
+  amount: 490
