@@ -1,0 +1,31 @@
+name: Tirana, Albania
+slug: tirana
+flag: 🇦🇱
+
+real_amount: 1954
+numbeo_amount: 1200
+currency: €
+
+housing:
+  amount: 480
+
+utilities:
+  amount: 100
+  explanation: Covers high-usage electricity (heating/cooling), water, and waste (75 EUR), plus high-speed unlimited fiber internet (17 EUR) and a 10GB+ mobile data plan (16 EUR).
+
+food:
+  amount: 300
+  explanation: Reflects a varied diet of ethically sourced, local organic produce, meats, and dairy from specialty stores, calculated at 10 EUR per day to account for the premium over industrial supermarket prices.
+
+transportation:
+  amount: 17
+  explanation: The price of a General Monthly Pass (1,600 ALL) which provides unlimited access to all public bus lines within Tirana, satisfying the requirement for car-free mobility.
+
+other_essentials:
+  amount: 80
+
+hobbies:
+  amount: 586
+
+savings:
+  amount: 391

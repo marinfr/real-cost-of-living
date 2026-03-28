@@ -55,7 +55,7 @@ export async function loadAllCities() {
   // First, load generic fallback descriptions
   await loadGenericFallback();
 
-  const cityNames = ['sarajevo', 'valencia', 'berlin', 'paris', 'vienna', 'chisinau', 'copenhagen'];
+  const cityNames = ['tirana', 'sarajevo', 'valencia', 'berlin', 'paris', 'vienna', 'chisinau', 'copenhagen'];
 
   for (const slug of cityNames) {
     const data = await loadCityFile(slug);
