@@ -2,7 +2,7 @@
  * Generate a mailto link for "city not found" scenario
  */
 export function generateCityNotFoundMailto(userInput) {
-  const email = process.env.REACT_APP_EMAIL_ADDRESS;
+  const email = 'markrubyist@gmail.com';
   const subject = encodeURIComponent('[City Request]');
   const body = encodeURIComponent(
     `Hello,\n\nI'd like to request adding the following city:\n\n${userInput}\n\nThank you!`
@@ -14,7 +14,7 @@ export function generateCityNotFoundMailto(userInput) {
  * Generate a mailto link for "report inaccuracy" scenario
  */
 export function generateReportInconsistencyMailto(cityName, categoryName) {
-  const email = process.env.REACT_APP_EMAIL_ADDRESS;
+  const email = 'markrubyist@gmail.com';
   const subject = encodeURIComponent(
     `[Report Inaccuracy][${cityName}]: ${categoryName}`
   );
