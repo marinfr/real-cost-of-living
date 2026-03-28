@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/static/*",
+    "/cities/*.yml",
+    "/manifest.json",
+    "/robots.txt",
+    "/favicon.svg",
+    "/og-image.svg",
+    "/twitter-image.svg",
+    "/*.ico",
+    "/*.png"
+  ],
+  "rules": [
+    {
+      "type": "redirect",
+      "pattern": "/*",
+      "to": "/index.html"
+    }
+  ]
+}

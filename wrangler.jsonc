@@ -8,6 +8,12 @@
   "assets": {
     "directory": "build"
   },
+  "routes": [
+    {
+      "pattern": "realcostofliving.cc",
+      "zone_name": "realcostofliving.cc"
+    }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]
