@@ -6,5 +6,5 @@ Disallow:
 # Crawl-delay in seconds (optional, adjust as needed)
 Crawl-delay: 1
 
-# Sitemaps (if you add a sitemap.xml later)
-# Sitemap: https://example.com/sitemap.xml
+# Sitemap
+Sitemap: https://realcostofliving.cc/sitemap.xml

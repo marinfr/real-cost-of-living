@@ -18,6 +18,16 @@ function CitySelector() {
     // Load cities list from cache
     const citiesList = getCitiesList();
     setCities(citiesList.sort((a, b) => a.name.localeCompare(b.name)));
+
+    // Update document title and canonical URL for homepage
+    document.title = 'Real Cost of Living Calculator | Compare City Expenses';
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.rel = 'canonical';
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.href = 'https://realcostofliving.cc/';
   }, []);
 
   // Close dropdown when clicking away
