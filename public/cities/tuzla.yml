@@ -1,0 +1,31 @@
+name: Tuzla, Bosnia and Herzegovina
+slug: tuzla
+flag: 🇧🇦
+
+real_amount: 2163
+numbeo_amount: 765
+currency: €
+
+housing:
+  amount: 307
+
+utilities:
+  amount: 130
+  explanation: Includes 2025 district heating rates (1.73 KM/m2 for 45m2), electricity for high-efficiency appliances and air purifiers, high-speed 60Mbps internet, and a 10GB+ mobile data plan.
+
+food:
+  amount: 383
+  explanation: Based on a diet of organic, locally-sourced produce and pasture-raised meats, including the high ethical premium for non-toxic and non-processed ingredients.
+
+transportation:
+  amount: 61
+  explanation: Covers a GiPS monthly urban transit pass, occasional taxi services for night travel, and at least one intercity bus trip per month for cultural enrichment.
+
+other_essentials:
+  amount: 200
+
+hobbies:
+  amount: 649
+
+savings:
+  amount: 433
