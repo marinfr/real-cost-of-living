@@ -1,0 +1,31 @@
+name: New York, USA
+slug: new-york
+flag: 🇺🇸
+
+real_amount: 12000
+numbeo_amount: 5748
+currency: $
+
+housing:
+  amount: 3700
+
+utilities:
+  amount: 300
+  explanation: High NYC energy delivery rates ($0.26/kWh) plus premium high-speed fiber internet ($96) and seasonal heating gas adjustments.
+
+food:
+  amount: 850
+  explanation: Combines USDA Liberal Plan adjusted for NYC premiums with a 35% ethical sourcing markup (organic/fair-trade) and social dining at ethical establishments.
+
+transportation:
+  amount: 200
+  explanation: OMNY weekly fare capping ($152/mo average) supplemented with express bus travel and emergency late-night rideshare for safety.
+
+other_essentials:
+  amount: 950
+
+hobbies:
+  amount: 3600
+
+savings:
+  amount: 2400
