@@ -6,6 +6,7 @@
     "/cities/*.yml",
     "/manifest.json",
     "/robots.txt",
+    "/sitemap.xml",
     "/favicon.svg",
     "/og-image.svg",
     "/twitter-image.svg",
